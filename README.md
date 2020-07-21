@@ -41,6 +41,10 @@ Its a standalone application consist of all Possible test cases. Following are t
 ```shell
 mvn clean test
 ```
-
-
+## How to get Coverage
+```shell
+mvn clean install
+```
+it will generate coverage reports in discount-module\target\site\jacoco
+Open index.html
 
